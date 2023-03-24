@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    background-color: rgb(18, 18, 18);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+}
+header {
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    height: 55px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #bebebe;
+    
+}
+.list-2 {
+    position: absolute;
+    right: 0;
+}
+
+.img-header {
+    height: 35px;
+}
+
+.img-header2 {
+    height: 20px;
+}
+header ul li {
+    margin-left: 30px;
+    
+}
+#baixar {
+    background-color: rgb(0, 125, 252);
+    color: white;
+    height: 53px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.border:hover {
+    border-bottom-style: solid;
+    border-color: rgb(67, 67, 239);
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#header2 {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.itens-header2 {
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.btn-pesquisar {
+    font-size: 15px;
+    width: 220px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #2a2a2a;
+    border: none;
+    padding-left: 10px;
+    color: #bebebe;
+}
+#jogos{
+    margin-top: 45px;
+    display: flex;
+}
+#conteudo {
+    width: 900px;
+    height: 550px;
+    background-image: url("fornaiBaner3.avif");
+    background-size: cover;
+    border-radius: 15px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#descricao {
+    margin-top: 20px;
+    max-width: 380px;
+}
+#img-descricao {
+    height: 80px;
+    width: 200px;
+}
+#conteudo-inner {
+    margin-left: 40px;
+}
+
+.play-btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 13px;
+}
+#btns {
+    margin-top: 30px;
+}
+
+#desc {
+    font-size: 17px;
+    margin-top: 20px;
+}
+.traco {
+    background-color: rgba(255, 255, 255, 0.47);
+    width: 1px;
+    height: 30px;
+}
+#conteudo2 {
+    margin-left: 25px;
+}
+.games {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 83px;
+    background-color: rgb(18, 18, 18);;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#buy {
+    margin-bottom: 15px;
+}
+#lista-desejo {
+    background-image: url("icons8-mais-2-matemática-100.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 2.5em;
+    background-color: transparent;
+    color: white;
+    padding-left: 1.3em;
+    width: 200px;
+    margin-left: 10px;
+}
+#lista-desejo:hover {
+    background-color: rgba(245, 245, 245, 0.204);
+}
+.img-game {
+    height: 65px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.games p {
+    margin-left: 10px;
+}
+.games:hover {
+    background-color: #2a2a2a;
+    transition: 0.3s;
+}
+#games-principal {
+    margin-top: 50px;
+}
+#populares-games {
+    display: flex;
+    justify-content: center;
+    
+}
+.games-pop {
+    display: flex;
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 5px;
+}
+.img-jogos-pop {
+    border-radius: 3px;
+}
+.img-jogos-pop:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+#title-pop {
+    color: #bebebe;
+    display: flex;
+    justify-content: center;
+    margin-right: 940px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.box-principal-games {
+    width: 200px;
+    margin: 15px;
+    cursor: pointer;
+}
+#games-principal span {
+    color: #bebebe;
+    font-size: 14px;
+    
+}
+.desc-jogo-pop {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.infos-games-pop {
+    margin-top: 10px;
+}
+#container-jogos-gratis {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 650px;
+    margin-top: 50px;
+}
+#jogos-gratis {
+    width: 1150px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+#header-gratis {
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+}
+#btn-gratis {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 30px;
+    background-color: #2a2a2a;
+    border: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    color: white;
+}
+#conteudo-gratis {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#presente {
+    height: 35px;
+    margin-right: 15px;
+}
+#header-gratis h1 {
+    display: flex;
+    align-items: center;
+}
+.box-games-gratis {
+    width: 515px;
+    height: 300px;
+    margin: 10px;
+    
+}
+.img-jogo-gratis {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px ;
+    
+}
+#div-games-gratis {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+#gratis-gratis {
+    background-color: rgb(0, 120, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    margin-top: -4px;
+    font-size: 12px;
+}
+#breve-gratis {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    margin-top: -4px;
+    font-size: 12px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Epic Games</title>
+</head>
+<body>
+    <section>
+        <header>
+            <ul class="list">
+                <li><img src="icons8-jogos-épicos(1).svg" alt="" class="img-header"></li>
+                <li class="border">STORE</li>
+                <li class="border">DISTRIBUIÇÃO</li>
+                <li class="border">AJUDA</li>
+                <li class="border traco"></li>
+                <li class="border">UNREAL ENGINE</li>
+            </ul>
+            <ul class="list list-2">
+                <li><img src="icons8-geografia-50.png" alt="" class="img-header img-header2"></li>
+                <li><img src="icons8-convidado-masculino-90.png" alt="" class="img-header img-header2"></li>
+                <li id="baixar">BAIXAR EPIC GAMES</li>
+            </ul>
+        </header>
+    </section>
+    <main>
+        <div id="header2">
+            <input type="text" placeholder="Pesquisar loja" id="" class="btn-pesquisar iten-header2">
+            <h1 class="itens-header2">Descobrir</h1>
+            <h1 class="itens-header2">Navegar</h1>
+            <h1 class="itens-header2">Novidades</h1>
+        </div>
+        <div id="jogos">
+            <div id="conteudo">
+                <div id="conteudo-inner">
+                    <img src="fortnite-logo-16.png" alt="" id="img-descricao">
+                    <div id="descricao">
+                        <h4 id="mini-desc">NOVA TEMPORADA</h4>
+                        <p id="desc">Chame seus amigos e mergulhe no Fortnite, um jogo massivo de combate entre 100 jogadores da Epic Games que combina saque, criação, tiroteio e caos. O resultado é uma experiência online competitiva e totalmente imprevisível que só fica maior e mais radical a cada temporada.</p>
+                        <div id="btns">
+                            <h2 id="buy">Gratuito</h2>
+                            <input type="button" value="JOGUE DE GRAÇA" class="play-btn">
+                            <input type="button" value="Para a lista de desejos" class="play-btn" id="lista-desejo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="conteudo2">
+                <div id="lista-games">
+                    <div class="games" onclick="gameOne()">
+                        <img src="fornaiPerfil.avif" alt="" class="img-game">
+                        <p>Fortnite</p>
+                    </div>
+                    <div class="games" onclick="gameTwo()">
+                        <img src="rocketPerfil.avif" alt="" class="img-game">
+                        <p>Rocket League</p>
+                    </div>
+                    <div class="games" onclick="gameTree()">
+                        <img src="islandPerfil.avif" alt="" class="img-game">
+                        <p>Dead Island 2</p>
+                    </div>
+                    <div class="games" onclick="gameFor()">
+                        <img src="rdrPerfil.avif" alt="" class="img-game">
+                        <p>Read Dead Redemption2</p>
+                    </div>
+                    <div class="games" onclick="gameFive()">
+                        <img src="valorantPerfil.avif" alt="" class="img-game">
+                        <p>Valorant</p>
+                    </div>
+                    <div class="games" onclick="gameSix()">
+                        <img src="gtaPerfil.avif" alt="" class="img-game">
+                        <p>GTA V</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <section id="games-principal">
+        <div id="title-pop">
+            <h3>Mais Populares</h3>
+        </div>
+        <div id="populares-games">
+            <div class="box-principal-games">
+                <div class="games-pop">
+                    <img src="gtaPerfil.avif" alt="" class="img-jogos-pop">
+                </div>
+                <div class="infos-games-pop">
+                    <span>jogo base</span>
+                    <p class="desc-jogo-pop">Grand Theft Auto V: Premium Edition</p>
+                    <p>R$ 82,42</p>
+                </div>
+            </div>
+            <div  class="box-principal-games">
+                <div class="games-pop">
+                    <img src="valorantPerfil.avif" alt="" class="img-jogos-pop">
+                </div>
+                <div class="infos-games-pop">
+                    <span>jogo base</span>
+                    <p class="desc-jogo-pop">Valorant</p>
+                    <p>Gratuito</p>
+                </div>
+             </div>
+            <div  class="box-principal-games">
+                <div class="games-pop">
+                    <img src="naraka-perfil.avif" alt="" class="img-jogos-pop">
+                </div>
+                <div class="infos-games-pop">
+                    <span>jogo base</span>
+                    <p class="desc-jogo-pop">NARAKA: BLADEPOINT</p>
+                    <p>R$ 40,00</p>
+                </div>
+            </div>
+            <div  class="box-principal-games">
+                <div class="games-pop">
+                    <img src="rdrPerfil.avif" alt="" class="img-jogos-pop">
+                </div>
+                <div class="infos-games-pop">
+                    <span>jogo base</span>
+                    <p class="desc-jogo-pop">Red Dead Redemption 2</p>
+                    <p>R$ 299,99</p>
+                </div>
+            </div>
+            <div  class="box-principal-games">
+                <div class="games-pop">
+                    <img src="fifa23-perfil.avif" alt="" class="img-jogos-pop">
+                </div>
+                <div class="infos-games-pop">
+                    <span>jogo base</span>
+                    <p class="desc-jogo-pop">FIFA 23</p>
+                    <p>R$ 299,99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="container-jogos-gratis">
+        <div id="jogos-gratis">
+            <div id="conteudo-gratis">
+                <div id="header-gratis">
+                    <h1><img src="icons8-presente-50.png" alt="" id="presente"> Jogos Grátis</h1>
+                    <button id="btn-gratis">VER MAIS</button>
+                </div>
+            </div>
+            <div id="div-games-gratis">
+                <div class="box-games-gratis">
+                    <img src="gladius.avif" alt="" class="img-jogo-gratis">
+                    <p id="gratis-gratis">
+                        GRÁTIS
+                    </p>
+                </div>
+                <div class="box-games-gratis">
+                    <img src="warships.avif" alt="" class="img-jogo-gratis">
+                    <p id="breve-gratis">
+                        EM BREVE
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
